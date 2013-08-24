@@ -2,6 +2,7 @@
 <code_scheme name="akitchen">
   <Objective-C>
     <option name="SPACE_BEFORE_PROPERTY_ATTRIBUTES_PARENTHESES" value="true" />
+    <option name="INTRODUCE_PROP_TO_PRIVATE_CATEGORY" value="true" />
   </Objective-C>
   <Objective-C-extensions>
     <option name="GENERATE_INSTANCE_VARIABLES_FOR_PROPERTIES" value="ASK" />
