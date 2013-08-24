@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <keymap version="1" name="akitchen" parent="Xcode">
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="shift meta W" />
+  </action>
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="meta button1" />
     <mouse-shortcut keystroke="button2" />
     <keyboard-shortcut first-keystroke="control B" />
     <keyboard-shortcut first-keystroke="control meta J" />
+  </action>
+  <action id="MoveEditorToOppositeTabGroup">
+    <keyboard-shortcut first-keystroke="shift control meta alt RIGHT" />
+    <keyboard-shortcut first-keystroke="shift control meta alt LEFT" />
+  </action>
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="shift control meta alt DOWN" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="shift control meta alt UP" />
   </action>
 </keymap>
 
