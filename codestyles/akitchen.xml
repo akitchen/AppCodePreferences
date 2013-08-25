@@ -2,11 +2,14 @@
 <code_scheme name="akitchen">
   <Objective-C>
     <option name="SPACE_BEFORE_PROPERTY_ATTRIBUTES_PARENTHESES" value="true" />
+    <option name="BLANK_LINES_AROUND_NAMESPACE" value="1" />
+    <option name="BLANK_LINES_AROUND_PROPERTIES_IN_DECLARATION" value="1" />
     <option name="INTRODUCE_PROP_TO_PRIVATE_CATEGORY" value="true" />
+    <option name="INTRODUCE_USE_NS_TYPES" value="true" />
   </Objective-C>
   <Objective-C-extensions>
     <option name="GENERATE_INSTANCE_VARIABLES_FOR_PROPERTIES" value="ASK" />
-    <option name="RELEASE_STYLE" value="IVAR" />
+    <option name="RELEASE_STYLE" value="PROPERTY" />
     <file>
       <option name="com.jetbrains.objc.util.OCDeclarationKind" value="Import" />
       <option name="com.jetbrains.objc.util.OCDeclarationKind" value="Macro" />
@@ -23,16 +26,18 @@
     <class>
       <option name="com.jetbrains.objc.util.OCDeclarationKind" value="Property" />
       <option name="com.jetbrains.objc.util.OCDeclarationKind" value="Synthesize" />
-      <option name="com.jetbrains.objc.util.OCDeclarationKind" value="InitMethod" />
       <option name="com.jetbrains.objc.util.OCDeclarationKind" value="StaticMethod" />
-      <option name="com.jetbrains.objc.util.OCDeclarationKind" value="InstanceMethod" />
+      <option name="com.jetbrains.objc.util.OCDeclarationKind" value="InitMethod" />
       <option name="com.jetbrains.objc.util.OCDeclarationKind" value="DeallocMethod" />
+      <option name="com.jetbrains.objc.util.OCDeclarationKind" value="InstanceMethod" />
     </class>
   </Objective-C-extensions>
   <XML>
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
   <codeStyleSettings language="ObjectiveC">
+    <option name="BLANK_LINES_BEFORE_IMPORTS" value="0" />
+    <option name="BLANK_LINES_AROUND_METHOD_IN_INTERFACE" value="0" />
     <option name="SPACE_AFTER_TYPE_CAST" value="false" />
   </codeStyleSettings>
 </code_scheme>
