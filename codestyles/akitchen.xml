@@ -2,6 +2,7 @@
 <code_scheme name="akitchen">
   <Objective-C>
     <option name="SPACE_BEFORE_PROPERTY_ATTRIBUTES_PARENTHESES" value="true" />
+    <option name="SPACE_BEFORE_PROTOCOLS_BRACKETS" value="false" />
     <option name="BLANK_LINES_AROUND_NAMESPACE" value="1" />
     <option name="BLANK_LINES_AROUND_PROPERTIES_IN_DECLARATION" value="1" />
     <option name="INTRODUCE_PROP_TO_PRIVATE_CATEGORY" value="true" />

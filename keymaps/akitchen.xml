@@ -9,6 +9,10 @@
     <keyboard-shortcut first-keystroke="control B" />
     <keyboard-shortcut first-keystroke="control meta J" />
   </action>
+  <action id="GotoRelated">
+    <keyboard-shortcut first-keystroke="control meta UP" />
+    <keyboard-shortcut first-keystroke="control meta DOWN" />
+  </action>
   <action id="MoveEditorToOppositeTabGroup">
     <keyboard-shortcut first-keystroke="shift control meta alt RIGHT" />
     <keyboard-shortcut first-keystroke="shift control meta alt LEFT" />
