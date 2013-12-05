@@ -17,6 +17,7 @@
     <keyboard-shortcut first-keystroke="shift control meta alt RIGHT" />
     <keyboard-shortcut first-keystroke="shift control meta alt LEFT" />
   </action>
+  <action id="PasteMultiple" />
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="shift control meta alt DOWN" />
   </action>
