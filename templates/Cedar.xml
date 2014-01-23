@@ -20,7 +20,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="cit" value="it(@&quot;$expected_behavior$&quot;, ^{&#10;    $content$&#10;});" description="Cedar example block" toReformat="true" toShortenFQNames="true">
+  <template name="cit" value="it(@&quot;should $expected_behavior$&quot;, ^{&#10;    $content$&#10;});" description="Cedar example block" toReformat="true" toShortenFQNames="true">
     <variable name="expected_behavior" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
