@@ -1,7 +1,7 @@
 #require 'pry'
 DIRS = ['codestyles', 'colors', 'keymaps', 'templates']
 FILES_IN_DIRS = ['options']
-DEST = File.expand_path('~/Library/Preferences/appCode20')
+DEST = File.expand_path('~/Library/Preferences/appCode30')
 
 namespace :symlink do
   desc "Symlinks dirs #{DIRS.join(",")} and all files in #{FILES_IN_DIRS.join(",")} into editor preferences folder"
