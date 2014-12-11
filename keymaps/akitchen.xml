@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <keymap version="1" name="akitchen" parent="Xcode">
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="shift meta W" />
@@ -53,4 +52,3 @@
     <keyboard-shortcut first-keystroke="shift control meta alt UP" />
   </action>
 </keymap>
-

@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<scheme name="Pivotal Darkula" version="124" parent_scheme="Default">
+<scheme name="Darcula Pairing" version="124" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.0" />
-  <option name="EDITOR_FONT_SIZE" value="17" />
+  <option name="EDITOR_FONT_SIZE" value="16" />
   <option name="CONSOLE_FONT_NAME" value="Menlo" />
-  <option name="CONSOLE_FONT_SIZE" value="15" />
+  <option name="CONSOLE_FONT_SIZE" value="12" />
   <option name="EDITOR_FONT_NAME" value="Menlo" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="295622" />
@@ -110,6 +109,12 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
+    <option name="BOOKMARKS_ATTRIBUTES">
+      <value>
+        <option name="ERROR_STRIPE_COLOR" value="0" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="BREAKPOINT_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="3a2323" />
@@ -213,6 +218,13 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
+    <option name="CONSOLE_USER_INPUT">
+      <value>
+        <option name="FOREGROUND" value="7f00" />
+        <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="CSS.COLOR">
       <value>
         <option name="FOREGROUND" value="6897bb" />
@@ -293,6 +305,13 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="8000" />
+        <option name="BACKGROUND" value="ffcccc" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="CUSTOM_KEYWORD1_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="cc7832" />
@@ -317,6 +336,20 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="CUSTOM_LINE_COMMENT_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="808080" />
+        <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="CUSTOM_MULTI_LINE_COMMENT_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="808080" />
+        <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="CUSTOM_NUMBER_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="6897bb" />
@@ -337,6 +370,13 @@
     </option>
     <option name="Class">
       <value>
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="DEFAULT_BLOCK_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="808080" />
+        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -1041,9 +1081,48 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
+    <option name="LINE_FULL_COVERAGE">
+      <value>
+        <option name="FOREGROUND" value="ccffcc" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="LINE_NONE_COVERAGE">
+      <value>
+        <option name="FOREGROUND" value="ffcccc" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="LINE_PARTIAL_COVERAGE">
+      <value>
+        <option name="FOREGROUND" value="ffffcc" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="LIVE_TEMPLATE_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_COLOR" value="ff0000" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="LOG_ERROR_OUTPUT">
       <value>
         <option name="FOREGROUND" value="ff6b68" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="LOG_EXPIRED_ENTRY">
+      <value>
+        <option name="FOREGROUND" value="555555" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="LOG_WARNING_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="ffa500" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -1073,7 +1152,7 @@
     </option>
     <option name="MESSAGE_ARGUMENT">
       <value>
-        <option name="FOREGROUND" value="c449e9" />
+        <option name="FOREGROUND" value="c4b3a3" />
         <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
@@ -1102,9 +1181,21 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
+    <option name="OC.CLASS_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="587580" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="OC.CONDITIONALLY_NOT_COMPILED">
+      <value>
+        <option name="FOREGROUND" value="38492e" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="OC.CPP_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="d41894" />
+        <option name="FOREGROUND" value="cc7832" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -1116,13 +1207,31 @@
     </option>
     <option name="OC.FUNCTION">
       <value>
-        <option name="FOREGROUND" value="c346fa" />
-        <option name="EFFECT_TYPE" value="-1" />
+        <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
     <option name="OC.KEYWORD">
       <value>
-        <option name="FOREGROUND" value="d41894" />
+        <option name="FOREGROUND" value="cc7832" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="OC.MACRONAME">
+      <value>
+        <option name="FOREGROUND" value="1f542e" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="OC.MACRO_PARAMETER">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="OC.MESSAGE_ARGUMENT">
+      <value>
+        <option name="FOREGROUND" value="291857" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -1132,21 +1241,33 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
+    <option name="OC.OVERLOADED_OPERATOR">
+      <value>
+        <option name="FOREGROUND" value="8080" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="OC.PROPERTY">
       <value>
         <option name="FOREGROUND" value="cdbcac" />
         <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
+    <option name="OC.PROTOCOL_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="50861a" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="OC.SELFSUPERTHIS">
       <value>
-        <option name="FOREGROUND" value="d41894" />
+        <option name="FOREGROUND" value="cc7832" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
     <option name="OC.STRING">
       <value>
-        <option name="FOREGROUND" value="db5539" />
+        <option name="FOREGROUND" value="a5c25c" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -1154,6 +1275,18 @@
       <value>
         <option name="FOREGROUND" value="9373a5" />
         <option name="EFFECT_TYPE" value="-1" />
+      </value>
+    </option>
+    <option name="OC.STRUCT_LIKE">
+      <value>
+        <option name="FOREGROUND" value="8080" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="OC.TYPEDEF">
+      <value>
+        <option name="FOREGROUND" value="371f80" />
+        <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
     <option name="OC_FORMAT_TOKEN">
@@ -1401,6 +1534,11 @@
       </value>
     </option>
     <option name="SCOPE_KEY_Evaluation fixes.">
+      <value>
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="SCOPE_KEY_Files">
       <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
@@ -1813,8 +1951,8 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="d9eeff" />
-        <option name="BACKGROUND" value="161616" />
+        <option name="FOREGROUND" value="a9b7c6" />
+        <option name="BACKGROUND" value="2b2b2b" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -1830,6 +1968,11 @@
         <option name="FOREGROUND" value="a8c023" />
         <option name="FONT_TYPE" value="2" />
         <option name="ERROR_STRIPE_COLOR" value="a74c0" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="TS.TYPE_PARAMETER">
+      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -2101,4 +2244,3 @@
     </option>
   </attributes>
 </scheme>
-

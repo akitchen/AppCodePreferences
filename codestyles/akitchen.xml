@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <code_scheme name="akitchen">
   <Objective-C>
     <option name="METHOD_CALL_ARGUMENTS_WRAP" value="5" />
@@ -47,4 +46,3 @@
     </indentOptions>
   </codeStyleSettings>
 </code_scheme>
-
