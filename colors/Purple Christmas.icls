@@ -1207,6 +1207,7 @@
     </option>
     <option name="OC.EXTERN_VARIABLE">
       <value>
+        <option name="FOREGROUND" value="b17e2e" />
         <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
@@ -1214,6 +1215,12 @@
       <value>
         <option name="FOREGROUND" value="94c76f" />
         <option name="EFFECT_TYPE" value="-1" />
+      </value>
+    </option>
+    <option name="OC.GLOBAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="694208" />
+        <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
     <option name="OC.KEYWORD">
@@ -1237,7 +1244,7 @@
     </option>
     <option name="OC.MESSAGE_ARGUMENT">
       <value>
-        <option name="FOREGROUND" value="3a2e7e" />
+        <option name="FOREGROUND" value="7a477e" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -1291,7 +1298,7 @@
     </option>
     <option name="OC.TYPEDEF">
       <value>
-        <option name="FOREGROUND" value="371f80" />
+        <option name="FOREGROUND" value="5f3880" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
